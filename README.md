@@ -17,7 +17,7 @@ Also needs a storage.json file. This is for easy ip comparison without pinging c
 {"current_ip": ""}
 ```
 
-Process:
+## Process:
 1. Fetch local config and storage jsons
 2. Ping external site for your external ip
 
