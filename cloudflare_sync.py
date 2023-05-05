@@ -115,6 +115,7 @@ def sync_ips(token: str, external_ip: str, zones: List[str]):
 
 
 def main():
+    print("[INIT] Starting IP sync")
     token, zones = load_config()
     current_ip = load_current_ip()
     external_ip = get_external_ip()
