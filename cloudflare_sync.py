@@ -52,7 +52,7 @@ def store_new_ip(new_ip: str):
         ))
 
 def get_external_ip() -> Optional[str]:
-    url = "http://ip.42.pl/raw"
+    url = "https://ipinfo.io/ip"
     response = requests.get(url)
 
     if response.status_code != 200:
